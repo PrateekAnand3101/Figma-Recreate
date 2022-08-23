@@ -1,0 +1,154 @@
+.body{
+	color: whitesmoke;
+}
+
+
+h1{
+	margin-left: 250px;
+	margin-bottom: 0;
+	padding: 0px;
+	color: black;
+	font-weight: 700;
+	font-family: 'Inter', sans-serif;
+	size: 40px;
+   
+}
+
+h2{
+	margin-left: 250px;
+	margin-top: 0;
+	/*font-size: 1em;*/
+	font-weight: 500;
+	padding: 0px;
+	color: sandybrown;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+    
+}
+
+.navbar{
+	padding: 10px;
+	margin-left: 230px;
+	font-weight: 500;
+	border-radius: 20px;
+  
+}
+
+.sidebar {
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 40px;
+	background-color: white;
+
+}
+
+.sidebar div {
+	padding: 8px;
+	font-size: 24px;
+	display: block;
+}
+
+.body-text {
+	margin-left: 150px;
+	font-size: 18px;
+}
+
+.box{
+	margin: 100px;
+	display: flex;
+}
+.profile{
+	margin:60px ;
+	padding: 0;
+	border-style: flex;
+}
+.button{
+	padding: 2;
+	font-size: 60;
+}
+.grid-container{
+	margin-left: 120px;
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, [col] auto ) ;
+    grid-template-rows: repeat(2, [row] auto  );
+    background-color: #fff;
+    color: #444;
+    position: relative;
+}
+.grid-item-1{
+	overflow: auto;
+	resize: horizontal;
+	margin-left: 120px;
+	background-color: #faedcd;
+    color: #fff;
+    padding: 100px;
+    grid-column:span 4;
+    grid-row: row;
+    border-radius: 20px;
+    min-width: 70%;
+    position: relative;
+}
+.vert-grid{
+	overflow: auto;
+	resize: vertical;
+	background-color: black;
+	margin-left: 150px;
+	grid-column:col3/ span ;
+    grid-row: row;
+    border-radius: 20px;
+    position: abso;
+    min-width: 10%;
+}
+.grid-item-2{
+	overflow: auto;
+	resize: horizontal;
+	margin-left: 120px;
+	background-color: #eaac8b;
+    color: #fff;
+    padding: 100px;
+    grid-column:span 2;
+    grid-row: row 2;
+    border-radius: 20px;
+    min-width: 30%;
+}
+.grid-item-3{
+	overflow: auto;
+	resize: horizontal;
+	margin-left: 140px;
+	background-color: #b9fbc0;
+    color: #fff;
+    padding: 100px;
+    grid-column:span 2;
+    grid-row: row 2;
+    border-radius: 20px;
+    min-width: 30%;
+}
+.grid-item-4{
+	overflow: auto;
+	resize: horizontal;
+	margin-left: 120px;
+	background-color: #8eecf5;
+    color: #fff;
+    padding: 100px;
+    grid-column:span 2;
+    grid-row: row 3;
+    border-radius: 20px;
+    min-width: 30%;
+}
+.grid-item-5{
+	overflow: auto;
+	resize: horizontal;
+	margin-left: 140px;
+	background-color: #e4c1f9;
+    color: #fff;
+    padding: 100px;
+    grid-column:span 2;
+    grid-row: row 3;
+    border-radius: 20px;
+    min-width: 30%;
+}
+
