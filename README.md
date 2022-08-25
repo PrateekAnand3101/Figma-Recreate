@@ -1,2 +1,2 @@
-# RedX-Task-1
+# Figma Recreate
 html css basic website recreated from figma
